@@ -145,8 +145,8 @@ a:visited {
     text-decoration: none;
     padding-bottom: 2px;
     border-bottom: 1px solid #e67e22;
-    -webkit-transition: border-bottom 0.2s, color 0.2s;
-    transition: border-bottom 0.2s, color 0.2s;
+    -webkit-transition: border-bottom 0.4s, color 0.4s;
+    transition: border-bottom 0.4s, color 0.4s;
 }
 
 a:hover,
@@ -165,8 +165,8 @@ input[type=submit] {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s; 
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    -webkit-transition: background-color 0.4s, border 0.4s, color 0.4s; 
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
 }
 
 .btn-full:link,
@@ -261,8 +261,8 @@ header {
     text-transform: uppercase;
     font-size: 90%;
     border-bottom: 2px solid transparent;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.2s;
+    -webkit-transition: border-bottom 0.4s;
+    transition: border-bottom 0.4s;
 }
 
 .main-nav li a:hover,
@@ -646,6 +646,7 @@ input[type=checkbox] {
 footer{
     background-color: rgba(46, 16, 16, 0.9);
     padding: 50px;
+    color: #fff;
 }
 
 
@@ -653,6 +654,7 @@ footer{
 .social-links li {
     display: inline-block;
     margin-right: 20px;
+    margin-bottom: 20px;;
 }
 
 .footer-nav li:last-child,
@@ -680,9 +682,9 @@ footer{
 .social-links li a:visited{
     text-decoration: none;
     border: 0;
-    color: #888;
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
+    color: #fff;
+    -webkit-transition: all 0.4s;
+    transition: color 0.4s;
 }
 
 .footer-nav li a:hover,
@@ -700,8 +702,8 @@ footer{
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram {
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 
@@ -725,7 +727,8 @@ footer{
 .first-p,
 .last-p {
     text-align: center;
-    color: #888;
+    margin-top: 20px;
+    color: #fff;
     font-size: 70%;
 }
 

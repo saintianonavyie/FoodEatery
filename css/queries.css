@@ -127,16 +127,16 @@
     .works-step:last-of-type { margin-bottom: 20px; }
 
         
-.box img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-    transform: scale(1);
-    transition: transform 0.5s;
-}
-.box img:hover {
-    transform: scale(1.05);
-}
+    .box img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+        transform: scale(1);
+        transition: transform 0.5s;
+    }
+    .box img:hover {
+        transform: scale(1.05);
+    }
     
 }
 
@@ -145,27 +145,42 @@
 /* Small phones: from 0 to 500px */
 @media only screen and (max-width: 500px) {
 
-
     .row,
     .hero-text-box { padding: 0 4%; }
     .col { 
         width: 100%;
         margin: 0 0 4% 0;
     }
-    
-.box img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-    transform: scale(1);
-    transition: transform 0.5s;
-}
-.box img:hover {
-    transform: scale(1.05);
-}
+        
+    .jumbotron-image img {
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+    }
+
+    .box img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+        transform: scale(1);
+        transition: transform 0.5s;
+    }
+    .box img:hover {
+        transform: scale(1.05);
+    }
 
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
+
+    .footer-nav li,
+    .social-links li {
+        display: inline-block;
+        font-size: 14px;
+    }
+    .social-links {
+        float: left;
+        margin: 0 auto;
+    }
 }
 
 
